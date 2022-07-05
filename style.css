@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.bg-image {
+  background-image: url("images/donation3.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+.img-text h1 {
+  color: orange;
+  text-align: center;
+  padding-top: 15%;
+  font-size: 65px;
+}
+.img-text p {
+  color: coral;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 2%;
+}
+.link-button {
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: tomato;
+  border-radius: 5px;
+  color: white;
+}
+.link-donate {
+  padding-top: 4%;
+  margin-left: 50%;
+}
+.amount-area {
+  padding-top: 7%;
+}
+.amount-area h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+.amount-area p {
+  text-align: center;
+  padding-top: 2%;
+}
+.box {
+  float: left;
+  padding: 5px;
+  padding-top: 2%;
+}
+.float-child {
+  background-color: #fafafa;
+  width: 135px;
+  height: 123px;
+}
+.float-child h1 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+.donate-box {
+  margin-left: 30%;
+  padding-top: 2%;
+}
+.form {
+  padding-top: 10%;
+}
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid rgb(145, 22, 22);
+  margin-left: 30%;
+  width: 46%;
+}
+input.placeholder {
+  text-align: center;
+  padding-bottom: 1%;
+  font-size: 16px;
+}
+.submit {
+  margin-top: 15px;
+  margin-left: 50%;
+  padding: 10px 25px;
+  background-color: tomato;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
