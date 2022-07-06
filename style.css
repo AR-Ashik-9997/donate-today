@@ -8,20 +8,21 @@ body {
 }
 
 .bg-image {
-  background-image: url("images/donation3.jpg");
+  background-image: url("images/donation6.jpg");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
   position: relative;
+  
 }
 .img-text h1 {
-  color: orange;
+  color: white;
   text-align: center;
   padding-top: 15%;
   font-size: 65px;
 }
 .img-text p {
-  color: coral;
+  color: white;
   text-align: center;
   font-size: 18px;
   line-height: 28px;
@@ -35,10 +36,12 @@ body {
   background-color: tomato;
   border-radius: 5px;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 .link-donate {
   padding-top: 4%;
-  margin-left: 50%;
+  margin-left: 45%;
 }
 .amount-area {
   padding-top: 7%;
@@ -132,13 +135,18 @@ input.placeholder {
   padding: 10px;
   padding-top: 5%;
 }
+.food-plan img{
+  width: 100px;
+  padding-top: 15%;
+  padding-left: 5%;
+}
 .food-plan h2 {
-  top: 50%;
+  top: 10%;
   position: relative;
   padding-left: 5%;
 }
 .food-plan p {
-  top: 55%;
+  top: 15%;
   position: relative;
   padding-left: 5%;
   padding-right: 5%;
@@ -161,7 +169,7 @@ input.placeholder {
   background-color: rgba(255, 244, 214, 1);
 }
 .update-area {
-  padding-top: 30%;
+  padding-top: 25%;
 }
 .update-area h1 {
   text-align: center;
