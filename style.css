@@ -13,7 +13,6 @@ body {
   height: 100vh;
   background-size: cover;
   position: relative;
-  
 }
 .img-text h1 {
   color: white;
@@ -135,7 +134,7 @@ input.placeholder {
   padding: 10px;
   padding-top: 5%;
 }
-.food-plan img{
+.food-plan img {
   width: 100px;
   padding-top: 15%;
   padding-left: 5%;
@@ -168,6 +167,48 @@ input.placeholder {
   height: 352px;
   background-color: rgba(255, 244, 214, 1);
 }
+.latest-donate {
+  padding-top: 26%;
+}
+.person-section {
+  margin-left: 20%;  
+}
+.person-name {
+  float: left;
+  padding: 10px;
+  padding-top: 5%;
+}
+.person-name img {
+  width: 120px;
+  padding-top: 2%;
+  padding-left: 35%;
+}
+.person-child {
+  width: 350px;
+  height: 300px;
+  background-color: rgb(178, 184, 185);
+  border-radius: 10px;
+}
+.person-name h3 {
+  text-align: center;
+  padding-top: 7%;
+}
+.person-name p {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.person-name span {
+  color: #14647c;
+  font-size: 24px;
+  font-weight: bold;
+}
+.person-name a {
+  text-decoration: none;
+  padding-left: 30%;
+  color: #378d14;
+}
+
 .update-area {
   padding-top: 25%;
 }
@@ -232,5 +273,5 @@ footer p {
   color: white;
   font-size: 14px;
   line-height: 55px;
-  padding-bottom: .6%;
+  padding-bottom: 0.6%;
 }
