@@ -6,7 +6,6 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
-
 .bg-image {
   background-image: url("images/donation6.jpg");
   background-repeat: no-repeat;
@@ -15,13 +14,13 @@ body {
   position: relative;
 }
 .img-text h1 {
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding-top: 15%;
   font-size: 65px;
 }
 .img-text p {
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-size: 18px;
   line-height: 28px;
@@ -32,9 +31,9 @@ body {
 .link-button {
   text-decoration: none;
   padding: 10px 25px;
-  background-color: tomato;
+  background-color: #ff6347;
   border-radius: 5px;
-  color: white;
+  color: #ffffff;
   border: none;
   cursor: pointer;
 }
@@ -98,9 +97,9 @@ input.placeholder {
 .submit-button {
   border: none;
   padding: 16px 12px;
-  background-color: tomato;
+  background-color: #ff6347;
   border-radius: 5px;
-  color: white;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -155,23 +154,23 @@ input.placeholder {
 .family-child {
   width: 360px;
   height: 352px;
-  background-color: rgba(79, 157, 166, 0.1);
+  background-color: #4f9da61a;
 }
 .shelter-child {
   width: 360px;
   height: 352px;
-  background-color: rgba(255, 89, 89, 0.1);
+  background-color: #ff59591a;
 }
 .education-child {
   width: 360px;
   height: 352px;
-  background-color: rgba(255, 244, 214, 1);
+  background-color: #fff4d6;
 }
 .latest-donate {
   padding-top: 26%;
 }
 .person-section {
-  margin-left: 20%;  
+  margin-left: 20%;
 }
 .person-name {
   float: left;
@@ -186,7 +185,7 @@ input.placeholder {
 .person-child {
   width: 350px;
   height: 300px;
-  background-color: rgb(178, 184, 185);
+  background-color: #b2b8b9;
   border-radius: 10px;
 }
 .person-name h3 {
@@ -208,9 +207,44 @@ input.placeholder {
   padding-left: 30%;
   color: #378d14;
 }
-
-.update-area {
+.news-area {
   padding-top: 25%;
+}
+.news-section {
+  margin-left: 25%;
+}
+.news-name {
+  float: left;
+  padding: 15px;
+  padding-top: 5%;
+}
+.news-name img {
+  width: 250px;
+  height: 400px;
+  float: left;
+}
+.news-child {
+  width: 500px;
+  height: 400px;
+  background-color: #ecf1f1;
+  border-radius: 10px;
+}
+.news-name h3 {
+  text-align: center;
+  padding-top: 7%;
+}
+.news-name p {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.news-area h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+.update-area {
+  padding-top: 30%;
 }
 .update-area h1 {
   text-align: center;
@@ -232,7 +266,7 @@ input.placeholder {
   margin-right: 30%;
 }
 .update-form {
-  background-color: rgba(255, 244, 214, 1);
+  background-color: #fff4d6;
   padding: 25px;
   width: 809px;
   height: 90px;
@@ -252,9 +286,9 @@ input[type="submit"] {
   position: relative;
   border: none;
   padding: 10px 18px;
-  background-color: tomato;
+  background-color: #ff6347;
   border-radius: 0 5px 5px 0;
-  color: white;
+  color: #ffffff;
 }
 footer {
   background-color: #0b0d17;
@@ -270,7 +304,7 @@ footer h2 {
 }
 footer p {
   text-align: center;
-  color: white;
+  color: #ffffff;
   font-size: 14px;
   line-height: 55px;
   padding-bottom: 0.6%;
